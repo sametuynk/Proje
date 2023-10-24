@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Paylaş"
+        android:id="@+id/paylas"
+        android:icon="@drawable/baseline_share_24"
+        />
+    <item
+        android:title="Ana Sayfa"
+        android:id="@+id/anasayfa"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item
+        android:title="Favoriler"
+        android:id="@+id/favoriler"
+        android:icon="@drawable/baseline_favorite_24"
+        />
+    <item
+        android:title="Arama"
+        android:id="@+id/search_bar"
+        android:icon="@drawable/baseline_search_24"
+        />
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671184457823",
+    "project_id": "sihirli-tarifler",
+    "storage_bucket": "sihirli-tarifler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671184457823:android:12ce23c66c806481290bea",
+        "android_client_info": {
+          "package_name": "com.sametuyanik.proje"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYwvgJx1TMEK8dYhlCQYoZLcRFOezZ2o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
