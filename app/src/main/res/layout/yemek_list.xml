@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
@@ -21,24 +22,40 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:orientation="vertical">
+                android:layout_height="150dp">
 
-                <ImageView
-                    android:id="@+id/yemekImage"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_background" />
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/yemekismi"
+                    <ImageView
+                        android:id="@+id/yemekImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/rounded_corners"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:padding="5dp"
-                    android:text="Sea Food"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yemekismi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Sea Food"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
 
             </LinearLayout>
 
