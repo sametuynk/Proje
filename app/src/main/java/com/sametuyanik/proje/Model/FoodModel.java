@@ -2,7 +2,9 @@ package com.sametuyanik.proje.Model;
 
 import com.google.gson.annotations.SerializedName;
 
-public class FoodModel {
+import java.io.Serializable;
+
+public class FoodModel implements Serializable {
 
     @SerializedName("title")
     public String title;
