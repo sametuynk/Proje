@@ -17,8 +17,9 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:onClick="favKaydet"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/textViewTarif"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
